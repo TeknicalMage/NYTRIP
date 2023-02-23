@@ -1,0 +1,297 @@
+commit d1c4a2493640befa5424d13b5391260c9e4247a2 (HEAD, tag: v0.8.0, origin/main, origin/HEAD, main)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-12-10
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-12-10
+
+    Bump package and library versions
+
+commit fc2fcbf76d1212b13030f4771c084875b94f3b9b
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-12-10
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-12-10
+
+    Update AUTHORS
+
+commit ea1df4726fd4325c0d8c912b0f1f197937a16944
+Merge: 6ec510b 7570e4e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-12-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-12-05
+
+    Merge pull request #98 from ngtcp2/rename-nghttp3_get_varint_len
+    
+    Rename nghttp3_get_varint_len and nghttp3_put_varint_len
+
+commit 7570e4eb6af55e55ad3957c442008590ed71d7c7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-12-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-12-05
+
+    Rename nghttp3_get_varint_len and nghttp3_put_varint_len
+    
+    Rename nghttp3_get_varint_len and nghttp3_put_varint_len to
+    nghttp3_get_varintlen and nghttp3_put_varintlen respectively.
+
+commit 6ec510bdd1dc7805590fa4b112951d9bc022e068
+Merge: b40630a 0c74a38
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-12-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-12-05
+
+    Merge pull request #97 from ngtcp2/remove-unused-put-uint-functions
+    
+    Remove unused nghttp3_put_uint48be and nghttp3_put_uint24be functions
+
+commit 0c74a380b3768d3982071f317808193969052eb5
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-12-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-12-05
+
+    Remove unused nghttp3_put_uint48be and nghttp3_put_uint24be functions
+
+commit b40630a245270117f1fe14d40e9663adefeb26a6
+Merge: 5952840 056011f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-30
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-30
+
+    Merge pull request #96 from ngtcp2/refactor-enable-connect-protocol
+    
+    Refactor enable_connect_protocol processing and add tests
+
+commit 595284009d402f76a943f5717b91db4f8300fe13
+Merge: 803d8f9 cccaf1c
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-30
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-30
+
+    Merge pull request #95 from ngtcp2/clarify-stream-writev-offset-buflen
+    
+    Clarify the case where offset >= buflen
+
+commit 056011fa7e0c27e618c3146c2ef21558b1001f99
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Refactor enable_connect_protocol processing and add tests
+
+commit cccaf1c3ab88b6a49d3ebea43e1545890fa71f39
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Clarify the case where offset >= buflen
+
+commit 803d8f9914470916d8cc911806762c286c54288f
+Merge: 4b5c43e 91d5027
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-30
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-30
+
+    Merge pull request #94 from ngtcp2/minor-cleanup
+    
+    Minor cleanup
+
+commit 91d5027762cb0c82c9a9479b5340db709fd54b08
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Minor cleanup
+
+commit 4b5c43e676963fc0721a6c056111b816adce53ec
+Merge: 05adc21 2ba5660
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-30
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-30
+
+    Merge pull request #93 from ngtcp2/nghttp3_unreachable
+    
+    Nghttp3 unreachable
+
+commit 05adc219bdc309fb1e70b71413ed2ba052b5ef7b
+Merge: 911b22c b94bc75
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-30
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-30
+
+    Merge pull request #92 from ngtcp2/update-rfc
+    
+    Update RFCs
+
+commit 2ba5660702c6ec8b77b5e117d741686ccf257548
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Replace assert(0) (plus abort()) with nghttp3_unreachable
+
+commit e9531116d8396834c5ec55ac8254013643d11610
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Add nghttp3_unreachable to replace assert(0) (plus abort()).
+
+commit b94bc75918c9f69c4ade80cd2b39292560d0e8f7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-30
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-30
+
+    Update RFCs
+
+commit 911b22c13a3f5cb54692bb71b1be4f19571183e1
+Merge: 36cf4bb 10271a1
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-26
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-26
+
+    Merge pull request #91 from ngtcp2/simplify-tnode-id
+    
+    Remove nghttp3_node_id because we have single type of node ID now
+
+commit 10271a16abac182e7c313161ba6e3743709375ea
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-26
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-26
+
+    Remove nghttp3_node_id because we have single type of node ID now
+
+commit 36cf4bb7219bfb38e97b57ddf4063e410c3fbc7f
+Merge: 1c518df 1590a54
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-26
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-26
+
+    Merge pull request #90 from ngtcp2/remove-serverpush-remnants
+    
+    Remove remnant code for server push
+
+commit 1c518dfd2bdc5cfe43d7da40980f2a3d04f994b4
+Merge: eb34acc 579c692
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-26
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-26
+
+    Merge pull request #89 from ngtcp2/add-test-for-prioritize-lower-stream-id
+    
+    Add test case for "Prioritize a stream with lower stream ID"
+
+commit 1590a5451c0c4eb23ec73d3274310d9779c9fd59
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-26
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-26
+
+    Remove remnant code for server push
+
+commit 579c6929451fc7e1a671c479a734b5db601df495
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-26
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-26
+
+    Add test case for "Prioritize a stream with lower stream ID"
+
+commit eb34acc036c658504ed971b8f2c7a08f14529bd7
+Merge: 46ca352 736d8d5
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-11-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-11-25
+
+    Merge pull request #88 from ngtcp2/prioritize-lower-stream-id
+    
+    Prioritize lower stream
+
+commit 736d8d5fbe57b92c5390ce771123dbe3852649b5
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-25
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-25
+
+    Remove unused seq from nghttp3_tnode
+
+commit fff279e7a9f7857de890242d419a4b8e49fa5d63
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-11-25
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-11-25
+
+    Prioritize a stream with lower stream ID as described by RFC 9218
+
+commit 46ca352cc63502c9180bc3c0d93381071224015b
+Merge: 8597ab3 c59373e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-10-04
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-10-04
+
+    Merge pull request #87 from ngtcp2/workflow-bump-compilers
+    
+    workflow: Bump compilers
+
+commit c59373e316d8cd48a3a3c8adec1815388749fb3a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-10-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-10-04
+
+    workflow: Bump compilers
+
+commit 8597ab3a9a5be9c45870e402a8c72353fa360af0
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-18
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-18
+
+    Bump library version due to the v0.7.1 patch release
+
+commit 635a532c8ff98cdbd6c141f85583632919102912
+Merge: 127d806 99b3031
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-25
+
+    Merge pull request #84 from alagoutte/fix-popcount-win-arm-32
+    
+    nghttp3_ringbuf: fix __popcnt with WIN ARM (32bits)
+
+commit 99b3031ff3cc6556fddd32cdcc4bc9a2bb82ebb6
+Author:     Alexis La Goutte <alexis.lagoutte@gmail.com>
+AuthorDate: 2022-08-24
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-24
+
+    nghttp3_ringbuf: fix __popcnt with ARM (32bits)
+
+commit 127d806b0a4907fdaf39e3f8f080485bb5d4c40e
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-21
+
+    Bump package version

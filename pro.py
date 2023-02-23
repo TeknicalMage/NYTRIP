@@ -13,6 +13,17 @@ import os
 
 
 def access():
+    
+    try:
+        scrapethis = os.path.realpath("output.html")
+        print(scrapethis)
+    except:
+        print('err')
+        pass
+        
+        
+    
+    
     chrome_options = Options() 
     
     chrome_options.add_argument('--user-data-dir=H:/Projects/NYTRIP/User Data')
@@ -42,9 +53,12 @@ def access():
     #End Date
     start_date = "20120220" #Year | #Month | #Day
     
-    site_access = ("https://www.nytimes.com/search?dropmab=false&endDate={}&query={}&sort=oldest&startDate={}".format(end_date, query, start_date))
-    print(site_access)
+    #site_access = ("https://www.nytimes.com/search?dropmab=false&endDate={}&query={}&sort=oldest&startDate={}".format(end_date, query, start_date))
     
+    site_access = (scrapethis)
+    
+    print(site_access)
+    11
     driver.get(site_access)
     time.sleep(100)
 
