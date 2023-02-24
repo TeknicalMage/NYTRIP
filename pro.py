@@ -1,5 +1,3 @@
-import pickle
-import random
 import time
 
 from selenium import webdriver
@@ -8,9 +6,16 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import select
 from selenium.webdriver.support.ui import Select
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
+
+import subprocess
+
 import random
 import os
 
+subprocess.call("test.bat")
 
 def access():
     
@@ -35,32 +40,36 @@ def access():
     
     #Gets rid of errors \ selenium hook log bs
     chrome_options.add_argument('--log-level=3')
+    
     #Gets rid of errors \ selenium hook log bs
     
     #Makes it go Slightly faster, I think
-    chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    #Makes it go Slightly faster, I think
+
     
+    #Makes it go Slightly faster, I think
     
     
     
     #Search Filter
     query = "wipty"
-    
-    #
     end_date = "20230220" #Year | #Month | #Day 
     #End Date
     start_date = "20120220" #Year | #Month | #Day
-    
     #site_access = ("https://www.nytimes.com/search?dropmab=false&endDate={}&query={}&sort=oldest&startDate={}".format(end_date, query, start_date))
     
     site_access = (scrapethis)
     
     print(site_access)
-    11
+        
     driver.get(site_access)
-    time.sleep(100)
+    
+    
+    
+    x = 0
+    val1 = driver.find_element_by_xpath('//*[@class="css-at9mc1 evys1bk0"]')[1].get_attribute("innerText")
+    print(val1)
+    
+   #]\//*[@class="css-at9mc1 evys1bk0"]
 
     #driver.get(site_access)
     #print('We are on ' + site_access)
